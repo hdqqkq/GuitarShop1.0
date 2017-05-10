@@ -35,6 +35,9 @@
 <div class="container ">
 	<div class="row">
 		<div class="col-xs-6">
+		    <div class="form-group">
+			<label>编号</label><input class="form-control" id="serialnumber"/>
+			</div>
 			<div class="form-group">
 			<label>价格</label><input class="form-control" id="price"/>
 			</div>
@@ -53,9 +56,10 @@
 			<div class="form-group">
 			<label>琴头木头</label><input class="form-control"  id="topWood"/>
 			</div>
-           <input type="submit" value="搜索"/>
+			<center> <input type="submit" value="搜索"/></center>
+ 
 
-			<button class="btn  btn-lg btn-block" onclick="submit()" type="button">搜索</button>
+			
 		</div>
 		</div>
 		</div>
